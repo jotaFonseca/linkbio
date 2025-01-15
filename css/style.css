@@ -2,5 +2,109 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: ;
+    font-family: "Poppins", sans-serif;
 }
+
+html {
+    height: 100vh;
+    font-size: 0.875rem;
+}
+
+body {
+    background-color: #282828;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #ccc;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.gradient {
+    background: linear-gradient(to right, #bb82d1, #9e1a8f);
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.perfil-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #eee;
+    font-weight: 300;
+}
+
+/* Buttons */
+section.links-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+a.link button {
+    width: 450px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 13px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #fff;
+    transition: .3s ease;
+}
+
+a.link i{
+    font-size: 1.5rem;
+}
+
+a.link button:hover {
+    transform: scale(1.05);
+}
+footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a.btn-footer {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    transition: .3s ease;
+}
+
+footer a.btn-footer:hover {
+    transform: scale(1.2);
+    color: #bb82d1;
+}
+
