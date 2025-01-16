@@ -108,3 +108,9 @@ footer a.btn-footer:hover {
     color: #bb82d1;
 }
 
+/* Resopnsive */
+@media screen and (max-width: 850px) {
+    a.link button {
+        width: 350px;
+    }
+}
